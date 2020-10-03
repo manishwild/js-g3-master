@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game and API</title>
+    <link rel="stylesheet" href="./css/rimouski.css">
+    <link rel="stylesheet" href="./css/index2.css">
+    <script src="./js/index.js"></script>
+
+</head>
+
+<body>
+    <!-- Game -->
+    <h3 id="h3">Fly Baby</h3>
+    <canvas id="canvas" width="820" height="501"></canvas>
+    <br>
+    <!-- API News -->
+    <marquee direction="left">
+        <span id="text" style="color:white"></span>
+    </marquee>
+    <br>
+    <!-- API Weather -->
+    <div class="container">
+        <div class="app-title">
+            <p>Weather</p>
+        </div>
+        <div class="notification"> </div>
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img src="./imgs/unknown.png" alt="">
+            </div>
+            <div class="temperature-value">
+                <p>- °<span>C</span></p>
+            </div>
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+            <div class="location">
+                <p>-</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index2.js"></script>
+</body>
+
+</html>

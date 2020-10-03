@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+#div{
+    position: absolute;
+    text-align: center;
+    text-shadow: 5px 5px 9px;
+    margin:auto ;
+    opacity: .5;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    border: 1px solid rgba(33, 48, 68, 0.301);
+    border-radius: 9px;
+    margin-top: 200px;
+    margin-left: 500px;
+    background: linear-gradient(90deg, rgb(131, 160, 184) 0%, rgb(229, 233, 222) 100%);
+}
+
+label{
+    
+    font-size: 25px;
+    font-weight: 500;
+    color:rgb(226, 43, 226) ;
+}
+label , input {
+    margin: 3%;
+    
+}
+input{
+    position: relative;
+    right: 2px;
+    border-radius: 5px;
+}
+button{
+    font-size: 20px;
+    color:rgb(226, 43, 226) ;
+    border-radius: 5px;
+}
+.video{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: .8;
+    z-index: -8;
+  }
+  @media only screen and (max-width:450px){
+
+    main {
+      width: 80vw;
+      left: 41%;
+      transform: translate(-50%);
+    }
+    p{
+      position: none;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      font-size: 3vw;
+      font-weight: bold;
+      text-shadow: 5px 5px 9px;
+   }
+   .next1,.next2,.next3{
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+   }
+    .previous1,.previous2{
+      position: absolute;
+      left: 15px;
+      bottom: 20px;
+    }
+    input{
+      font-size: 14px;
+    }
+    .select{
+      font-size: 14px;
+    
+    }
+    label{
+      font-size: 15px;
+      font-weight: 600;
+  }
+
+
+  }
